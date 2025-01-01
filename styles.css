@@ -99,3 +99,88 @@ img {
 .w3-hide-small:hover {
     color: var(--main-white);
 }
+
+/* General Styling */
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  text-align: justify;
+  font-family: "Raleway", sans-serif;
+  transition: 0.8s ease-out;
+  scroll-behavior: smooth;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+/* Header Section */
+.bgimg-1 {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+/* Gradient Animation */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Sidebar */
+.w3-sidebar {
+  display: none;
+}
+
+/* Skills Section */
+#skills {
+  padding: 64px;
+  background-color: #f1f1f1;
+}
+
+/* Promo Section */
+.w3-container {
+  padding: 128px 16px;
+}
+
+.w3-light-grey {
+  background-color: #f1f1f1;
+}
+
+/* Team Section */
+#team {
+  padding: 128px 36px;
+}
+
+/* About Section */
+#about {
+  padding: 128px 6px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 128px 16px;
+}
+
+/* Footer */
+footer {
+  padding: 64px;
+  text-align: center;
+}
+
+footer .w3-xlarge a {
+  margin-right: 8px;
+}
+
